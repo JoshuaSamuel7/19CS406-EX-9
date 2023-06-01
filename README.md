@@ -1,6 +1,6 @@
 # EX-9 APPLICATION USING TCP SOCKETS - CREATING FOR CHAT CLIENT-SERVER
 
-## DATE : 02/05/2023
+## DATE : 03/05/2023
 
 ## AIM :
 To write a python program for creating Chat using TCP Sockets Links.
@@ -18,7 +18,7 @@ will sendNACK signal to client.
 
 ## PROGRAM :
 ## CLIENT :
-```
+```PYTHON 3
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -29,7 +29,7 @@ while True:
 ```
 
 ## SERVER :
-```
+```PYTHON 3
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
