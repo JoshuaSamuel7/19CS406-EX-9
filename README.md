@@ -1,11 +1,11 @@
 # EX-9 APPLICATION USING TCP SOCKETS - CREATING FOR CHAT CLIENT-SERVER
 
-# DATE : 02/05/2023
+## DATE : 02/05/2023
 
-# AIM :
+## AIM :
 To write a python program for creating Chat using TCP Sockets Links.
 
-# ALGORITHM :
+## ALGORITHM :
 ```
 1. Start the program.
 2. Get the frame size from the user.
@@ -16,8 +16,8 @@ will sendNACK signal to client.
 6. Stop the program
 ```
 
-# PROGRAM :
-# CLIENT :
+## PROGRAM :
+## CLIENT :
 ```
 import socket
 s=socket.socket()
@@ -28,7 +28,7 @@ while True:
  print("Server > ",s.recv(1024).decode())
 ```
 
-# SERVER :
+## SERVER :
 ```
 import socket
 s=socket.socket()
@@ -42,15 +42,15 @@ while True:
  c.send(msg.encode())
 ```
 
-# OUTPUT :
-# CLIENT :
+## OUTPUT :
+## CLIENT :
 
 ![9A](https://github.com/JoshuaSamuel7/19CS406-EX-9/assets/118343296/ffc121e3-be07-4af5-9ebb-1e6978e4e293)
 
-# SERVER :
+## SERVER :
 
 ![9B](https://github.com/JoshuaSamuel7/19CS406-EX-9/assets/118343296/f83ba898-e21d-4e32-879d-859d827b0264)
 
-# RESULT :
+## RESULT :
 Thus, the python program for creating Chat using TCP Sockets Links was successfully
 created and executed.
